@@ -1,0 +1,212 @@
+
+/*start main rules */
+body {
+  box-sizing: border-box ;
+ -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+ -ms-box-sizing: border-box;
+ perspective: 600px;
+ font-family: adamina;}
+.container {width: 1170px; margin: auto;} /*container to make the words in middle of the page*/
+.clearfix {clear:both}
+/*end main rules*/
+/*Start header*/
+.header .navbar {
+      background-color:#252F31;
+      color: #fff ;
+      display: block;
+      cursor: pointer;
+      height: 100%;
+      transition: width 2s;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      width: 1%;
+}
+.header .navbar:hover {
+                width: 10%;
+ }
+.header .navbar i{
+  white-space: nowrap; 
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+                
+}
+                
+.header .navbar h2{
+          text-transform:uppercase;
+          margin-bottom: 100px;
+          overflow: hidden;
+          white-space: nowrap; 
+          color: white;
+          font-size: 40px;
+          position: absolute;
+          overflow: hidden;
+          top: 20px;
+          left: 5%;
+  
+                    
+                    }
+.header .navbar h2 span
+                    { color:#067FD2 ;}
+.header .navbar ul {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 2%;
+  left: 10%;
+  }
+.header .navbar ul li {padding:10px;
+                       border: none; 
+                      }
+.header .navbar ul  li a {
+                         color: #fff ;
+                         text-decoration:none;
+                         transition: all 1s ease-in-out;
+                         display: inline;
+                         border: none;
+}
+.header .navbar ul li a:hover {color:#336CAA;  transition: all 1s ease-in-out }
+.header .navbar .dropdown {display: none;}
+.header .navbar ContactMe:hover .dropdown{display: none;}
+.chooseli {
+   color:#336CAA !important ;
+   text-decoration: underline !important;
+}
+.slaider {height:600px ;
+          border: solid 30px transparent;
+          padding: 15px;
+          border-image: url('../images/3-01-512.png') 10% repeat;
+          background-image: url('../images/unnamed.jpg') ;
+ background-size:cover; /*css3*/ }
+.slaider .intro {text-align: center; height: 600px; color:#fff; padding: 200px;}
+.slaider .intro h1 { font-size:50px;border-top:3px solid #fff;
+border-bottom: 3px solid #fff; margin:auto; padding: 5px 0px ;width:600px;  }
+.slaider .intro button { border: 3px solid #fff ; padding:10px; margin-top: 30px; background:none;width:150px; color:#fff;}
+
+/*End header*/
+/*Start advantages*/
+.advantages  {overflow: hidden ; padding: 50px ;  }
+.advantages .feat {float:left; width:30%; height:200px; color:#000; padding-left: 10px; }
+.advantages .feat h2 {color:#000;}
+.advantages .feat p {color : #222;}
+/*End advantages*/
+/*Start about-me*/
+.about-me{overflow: hidden; background-color:#F2F2F2; color:#555;}
+.about-me .img {float:left ; width:40% ; padding: 10px; margin-right: 50px; perspective: 50px; }
+.about-me .img img {width: 95% ;
+                    height:500px ;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    transition: all .1s ease-in-out;
+                   }
+.about-me .img img:hover {width:100%;
+                          height:550px ;
+                          overflow: hidden;
+                          cursor: pointer;
+                          transform: rotateY(180deg);
+                         }
+.about-me .info { overflow: hidden; margin:20px; width: 50%; float:left;}
+.about-me .info h2 {font-size: 40px ;}
+.about-me .info p:last-of-type {margin-top: 20px}
+.about-me .info .hoppies {float:left;}
+.about-me .info .hoppies > div  {float:left ; width:50%; min-height:100px;}
+.about-me .info .hoppies h3 {color:#555 ; }
+.about-me .info .hoppies p {padding: 10px; font-style:normal;}
+.about-me .info .hoppies img {width : 30px ; height: 30px ; float:left ; margin: 0px 20px ;}
+/*End about-me*/
+/*Start skills*/
+.skills {padding-top:30px ; padding-bottom:30px; overflow: hidden; color:#555; }
+.skills .my-skills{width:40%; float:left ; text-transform:capitalize; margin-left: 5%; position: relative;}
+.skills .my-skills h2 {font-size: 35px ; }
+.skills .my-skills p {font-size: 20px ;}
+.skills .my-skills p:last-of-type {margin-top: 20px}
+.skills button {background: none ; border-color: #179DF9  ; padding : 12px 30px; color:#179DF9;  margin: 30px 10px}
+.skills .progress { float:left ; text-transform:capitalize; margin-left: 5%;width:0; margin-top: 50px;}
+.skills .progress progress {height: 20px; width:80%; background-color:#179DF9 ;  }
+
+/*End skills*/
+
+/*Start resume*/
+.resume {background-color:#F2F2F2; text-align:center; padding : 100px ; }
+/*End resume*/
+
+/*Start Education*/
+.education {padding-top:30px ; padding-bottom:30px; overflow: hidden; color:#555;  }
+.education .my-education {width:40% ; text-transform:capitalize; float:left;   }
+.education .my-education p {font-size: 20px ; line-height: 30px}
+.education .my-education p:last-of-type {margin-top: 20px}
+.graphic { margin :2% 5%; padding:2% 5% ; width: 40%; float: left ; }
+.cit { margin :2% 5%; padding:2% 5% ; width: 40%; float:right  }
+.graphic span , .cit span {background-color: #3675A0 ; padding: 5px ; color:black ; margin : 30px 10px 10px ; }
+/*End Education*/
+
+/*Start Experience */
+ .experience{padding-top:30px ; padding-bottom:30px; overflow: hidden; color:#555;  }
+.my-experience { text-transform:capitalize; float:left;  width: 40% }
+.my-experience p {font-size: 20px ; line-height: 30px}
+.experience .my-experience p:last-of-type {margin-top: 20px}
+.graphic { margin :2% 5%; padding:2% 5% ; width: 40%; float : left ;   }
+.cit { margin :2% 5%; padding:2% 5% ; width: 40%; float:right  }
+.graphic span , .cit span {background-color: #3675A0 ; padding: 5px ; color:black ; margin : 30px 10px 10px ; }
+/*End Experience*/
+
+/*Start Testi*/
+.testi{background:#F2F2F2 ; color: #888 ; line-height: 1.8; text-align:center; padding:40px; }
+.testi .ahmed , .abeer , .anas {display: none;}
+.testi h1 {text-align: center ; }
+.testi ul {list-style: none ;padding-left:0;}
+.testi ul li {width:15px ;  height:15px ; border: 2px solid #3675A0 ; display:inline-block; cursor: pointer; border-radius: 50% ;}
+.testi ul li.active {background-color : #3675A0 ;}
+.testi ul li:hover {background-color:#3675A0 ; }
+
+/*--Start portfolio  --*/
+.portfolio {padding-top:30px; padding-bottom:30px; text-align:center;}
+.portfolio .our-work{overflow:hidden; }
+.portfolio .our-work > div {float:left; margin:20px ; width:300px;height: 300px;}
+.our-work img {width:250px ; height: 250px; cursor: pointer;transition: all .5s ease-in-out; opacity: 0.5;}
+.our-work img:hover {width:300px ;
+                     height: 300px;
+                     transform:translate(1px,1px);
+                   -webkit-transform: translate(1px,1px);
+                    opacity: 1;
+                    }
+
+/*--End portfolio--*/
+/*--start contact-me--*/
+.contact-me {background-color:#252F31 ; color: white; margin: 30px 0 0 0 ; padding:30px ; overflow: hidden; }
+.contact-me .contact p {color:#4B5557;}
+.contact span {color:white; }
+.ur-information , .contact{width:50% ; float:left ;}
+.ur-information input {background-color:#4B5557 ; height: 20px ; width:200px; margin: 20px  }
+.ur-information textarea {background-color:#4B5557;margin: 20px; width: 200px;}
+.contact-me button {border-color:#fff; color: #fff; cursor: pointer}
+/*--choose--*/
+.choose {width:auto; height: 500px;}
+.select {background:#4B5557; width:50%;  }
+
+/*--Start Footer--*/
+.footer {background-color:#000; text-align:center; color:#4B5557; padding: 40px; height:100px;}
+.footer ul {list-style: none;}
+.footer ul li { margin-left: 10px ; cursor: pointer ;display: inline;}
+/*--End Footer--*/
+ .hidden {display: none;
+         }
+/*Start my mainframe*/
+.my-pragraph-style {padding: 10px;line-height: 1; font-style:normal; color:#555;}
+p {line-height: 1.7 ; color : #888 ;}
+button { background: none ; border : 3px solid #179DF9 ; padding: 10px 30px ; font-weight: bold; cursor: pointer; }
+div .map {width: 100px; height: 100px; border: 5px solid #000;}
+@media screen and (max-width:600px) {
+  .feat {
+    width: 100%;
+  }
+}
